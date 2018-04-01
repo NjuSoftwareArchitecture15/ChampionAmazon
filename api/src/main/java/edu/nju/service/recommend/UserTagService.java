@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UserTagService {
 
-    boolean addUserTag(String userID, List<Tag> tags);
+    boolean addUserTag( List<Tag> tags);
 
     List<Tag> getUserTag(String userID);
 
