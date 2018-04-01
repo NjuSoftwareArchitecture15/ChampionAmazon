@@ -25,7 +25,7 @@ public class Consumer {
         System.setProperty("java.net.preferIPv4Stack", "true");
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"META-INF/spring/consumer.xml"});
         context.start();
-        DemoService demoService = (DemoService) context.getBean("demoService"); // get remote service proxy
+        DemoService demoService = (DemoService) context.getBean("demoService"); // get remote serviceImpl proxy
 
         while (true) {
             try {
