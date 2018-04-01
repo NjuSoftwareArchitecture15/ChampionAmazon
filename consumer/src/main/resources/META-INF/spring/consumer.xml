@@ -11,5 +11,12 @@
     <dubbo:registry address="multicast://224.5.6.7:1234"/>
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
-    <dubbo:reference id="demoService" check="false" interface="edu.nju.demo.DemoService" />
+    <dubbo:reference id="demoService" check="false" interface="edu.nju.demo.DemoService"/>
+    <dubbo:reference id="userService" check="false" interface="edu.nju.service.user.UserService"/>
+    <dubbo:reference id="cartService" check="false" interface="edu.nju.service.commodity.CartService"/>
+    <dubbo:reference id="commodityService" check="false" interface="edu.nju.service.commodity.CommodityService"/>
+    <dubbo:reference id="orderService" check="false" interface="edu.nju.service.order.OrderService"/>
+    <dubbo:reference id="recommendService" check="false" interface="edu.nju.service.recommend.RecommendService"/>
+    <dubbo:reference id="userTagService" check="false" interface="edu.nju.service.recommend.UserTagService"/>
+
 </beans>
