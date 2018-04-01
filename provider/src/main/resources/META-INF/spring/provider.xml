@@ -4,6 +4,8 @@
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+    <import resource="service.xml"/>
+
     <!-- 提供方应用信息，用于计算依赖关系 -->
     <dubbo:application name="demo-provider"/>
 
@@ -13,23 +15,14 @@
     <!-- 用dubbo协议在20880端口暴露服务 -->
     <dubbo:protocol name="dubbo" port="20880"/>
 
-    <!-- 声明需要暴露的服务接口 -->
-    <bean id="demoService" class="edu.nju.demo.DemoServiceImpl"/>
-    <bean id="userService" class="edu.nju.serviceImpl.user.UserServiceImpl"/>
-    <bean id="cartService" class="edu.nju.serviceImpl.commodity.CartServiceImpl"/>
-    <bean id="commodityService" class="edu.nju.serviceImpl.commodity.CommodityServiceImpl"/>
-    <bean id="orderService" class="edu.nju.serviceImpl.order.OrderServiceImpl"/>
-    <bean id="recommendService" class="edu.nju.serviceImpl.recommend.RecommendServiceImpl"/>
-    <bean id="userTagService" class="edu.nju.serviceImpl.recommend.UserTagServiceImpl"/>
-
 
     <!-- 和本地bean一样实现服务 -->
     <dubbo:service interface="edu.nju.demo.DemoService" ref="demoService"/>
-    <dubbo:service interface="edu.nju.serviceImpl.user.UserServiceImpl" ref="userService"/>
-    <dubbo:service interface="edu.nju.serviceImpl.commodity.CartServiceImpl" ref="cartService"/>
-    <dubbo:service interface="edu.nju.serviceImpl.commodity.CommodityServiceImpl" ref="commodityService"/>
-    <dubbo:service interface="edu.nju.serviceImpl.order.OrderServiceImpl" ref="orderService"/>
-    <dubbo:service interface="edu.nju.serviceImpl.recommend.RecommendServiceImpl" ref="recommendService"/>
-    <dubbo:service interface="edu.nju.serviceImpl.recommend.UserTagServiceImpl" ref="userTagService"/>
+    <dubbo:service interface="edu.nju.service.user.UserService" ref="userService"/>
+    <dubbo:service interface="edu.nju.service.commodity.CartService" ref="cartService"/>
+    <dubbo:service interface="edu.nju.service.commodity.CommodityService" ref="commodityService"/>
+    <dubbo:service interface="edu.nju.service.order.OrderService" ref="orderService"/>
+    <dubbo:service interface="edu.nju.service.recommend.RecommendService" ref="recommendService"/>
+    <dubbo:service interface="edu.nju.service.recommend.UserTagService" ref="userTagService"/>
 
 </beans>

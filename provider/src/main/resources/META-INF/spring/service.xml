@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/cache"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
+
+    <!-- 启动@aspectj的自动代理支持-->
+    <aop:aspectj-autoproxy/>
+
+    <!-- 声明需要暴露的服务接口 -->
+    <bean id="demoService" class="edu.nju.demo.DemoServiceImpl"/>
+    <bean id="userService" class="edu.nju.serviceImpl.user.UserServiceImpl"/>
+    <bean id="cartService" class="edu.nju.serviceImpl.commodity.CartServiceImpl"/>
+    <bean id="commodityService" class="edu.nju.serviceImpl.commodity.CommodityServiceImpl"/>
+    <bean id="orderService" class="edu.nju.serviceImpl.order.OrderServiceImpl"/>
+    <bean id="recommendService" class="edu.nju.serviceImpl.recommend.RecommendServiceImpl"/>
+    <bean id="userTagService" class="edu.nju.serviceImpl.recommend.UserTagServiceImpl"/>
+
+    <bean id="orderLogAspect" class="edu.nju.OrderLogAspect"/>
+
+</beans>
