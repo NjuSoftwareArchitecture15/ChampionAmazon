@@ -1,44 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40dd50d7-8145-420f-b7dd-6c472a3ccdef" name="Default" comment="添加ignore">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/edu/nju/demo/DemoService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/java/edu/nju/demo/Consumer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/consumer.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/resources/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/provider/src/main/java/edu/nju/demo/DemoServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/provider/src/main/java/edu/nju/demo/Provider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/provider.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/consumer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/consumer_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="40dd50d7-8145-420f-b7dd-6c472a3ccdef" name="Default" comment="feat: dubbo demo">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ChampionAmazon.iml" afterPath="$PROJECT_DIR$/ChampionAmazon.iml" />
-      <change beforePath="$PROJECT_DIR$/api/api.iml" afterPath="$PROJECT_DIR$/api/api.iml" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/init" afterPath="$PROJECT_DIR$/consumer/src/main/resources/dubbo.properties" />
-      <change beforePath="$PROJECT_DIR$/consumer/consumer.iml" afterPath="$PROJECT_DIR$/consumer/consumer.iml" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" afterPath="$PROJECT_DIR$/consumer/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/init" afterPath="$PROJECT_DIR$/provider/src/main/resources/dubbo.properties" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/init" afterPath="$PROJECT_DIR$/provider/src/main/resources/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/provider/pom.xml" afterPath="$PROJECT_DIR$/provider/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/provider/provider.iml" afterPath="$PROJECT_DIR$/provider/provider.iml" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/init" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/init" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/consumer.xml" afterPath="$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/consumer.xml" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/provider.xml" afterPath="$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/provider.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/edu/nju/demo/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="342">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -77,8 +44,8 @@
       <file leaf-file-name="provider.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/provider.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+            <state relative-caret-position="324">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -96,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consumer.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="consumer.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/consumer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,9 +114,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/provider/src/main/java/edu/nju/demo/DemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/edu/nju/demo/Provider.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/edu/nju/demo/Consumer.java" />
         <option value="$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/provider.xml" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/consumer.xml" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/edu/nju/demo/Consumer.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -554,7 +522,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522546415690</updated>
       <workItem from="1522546421478" duration="3403000" />
-      <workItem from="1522554598325" duration="3897000" />
+      <workItem from="1522554598325" duration="5468000" />
     </task>
     <task id="LOCAL-00001" summary="添加ignore">
       <created>1522547077879</created>
@@ -570,11 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522547128953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: dubbo demo">
+      <created>1522565667252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522565667252</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7300000" />
+    <option name="totallyTimeSpent" value="8871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -599,7 +574,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -628,7 +603,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加ignore" />
+    <MESSAGE value="feat: dubbo demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: dubbo demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -656,13 +632,6 @@
         <state relative-caret-position="144">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -745,14 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/edu/nju/demo/DemoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -760,14 +721,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,8 +734,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/edu/nju/demo/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="342">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/META-INF/spring/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/META-INF/spring/consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
