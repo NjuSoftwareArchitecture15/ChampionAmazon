@@ -10,5 +10,8 @@
         <module name="ChampionAmazon" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ChampionAmazon" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
